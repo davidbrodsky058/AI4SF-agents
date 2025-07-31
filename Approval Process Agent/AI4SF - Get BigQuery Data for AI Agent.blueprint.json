@@ -13,8 +13,8 @@
                 "table": "approval_processes",
                 "dryRun": false,
                 "prefix": "#standardSQL",
-                "project": "speedtech-project",
-                "datasetId": "AI4SF_DataSet",
+                "project": "your project",
+                "datasetId": "your DataSet",
                 "useQueryCache": true,
                 "useInt64Timestamp": false
             },
@@ -38,7 +38,7 @@
                         },
                         "project": {
                             "mode": "chose",
-                            "label": "Speedtech-Project",
+                            "label": "your Project label",
                             "nested": [
                                 {
                                     "help": "Specifies the **Default Dataset** to assume for any table in **Query** field. If not set, you must specify a table in the format `{datasetId}.{tableId}` in **Query** field.",
@@ -62,7 +62,7 @@
                         },
                         "datasetId": {
                             "mode": "chose",
-                            "label": "AI4SF_DataSet"
+                            "label": "DataSet label"
                         },
                         "useQueryCache": {
                             "mode": "chose"
@@ -77,7 +77,7 @@
                                 "scoped": "true",
                                 "connection": "google"
                             },
-                            "label": "BigQuerry connection (david.brodsky@appsflyer.com)"
+                            "label": "BigQuerry connection"
                         }
                     }
                 },
